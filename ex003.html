@@ -10,8 +10,11 @@
     <h1>Olá, mundo!</h1>
     <p>Já me livrei dessa maldição!</p>
     <script>
-      var nome = window.prompt('Qual o seu nome?')
-      alert(`É um grande prazer te conhecer, ${nome}!`)
+      var n1 = Number(window.prompt('Digite o primeiro número: '))
+      var n2 = Number(prompt('Digite o segundo número: '))
+      //var soma = n1 + n2; nao funciona pq n1 e n2 são retornados como Strings.
+      var soma = n1 + n2
+      alert('A soma dos valores é: ' + soma)
     </script>
   </body>
 </html>
